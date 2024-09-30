@@ -28,7 +28,7 @@ It is an icon added left to the page title(browser tabs, browser history, toolba
 # pseudo before and after class
 
 - These classes do not inherit box size property added to universal selectors. it has to be added specifically for the before and after pseudo classes.
-- Even we add ::before pseudo class before an img container and set position to absolute, it will come out of flow of stacking order. To stack it back to the img either use z-index to a negative value or make image to position relative.
+- Even we add ::before pseudo class before an img container and set position to absolute, it will come out of flow of stacking order. To stack it back to the img either use z-index to anegative value or make image to position relative.
 
 # External Video Resources
 
