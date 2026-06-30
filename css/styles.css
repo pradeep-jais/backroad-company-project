@@ -3,7 +3,7 @@
 Fonts
 ===============
 */
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
 
 /*
 =============== 
@@ -38,7 +38,7 @@ Variables
   --clr-grey-9: hsl(212, 33%, 89%);
   --clr-grey-10: hsl(210, 36%, 96%);
   --clr-white: #fff;
-  --ff-primary: 'Lato', sans-serif;
+  --ff-primary: "Lato", sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
@@ -338,20 +338,18 @@ Hero
 }
 @media screen and (min-width: 768px) {
   .hero {
-    background: -webkit-gradient(
+    background:
+      -webkit-gradient(
         linear,
         left top,
         left bottom,
         from(rgba(4, 78, 83, 0.6)),
         to(rgba(4, 78, 83, 0.5))
       ),
-      url('../images/main.jpeg') center/cover no-repeat fixed;
-    background: linear-gradient(
-        to bottom,
-        rgba(4, 78, 83, 0.6),
-        rgba(4, 78, 83, 0.5)
-      ),
-      url('../images/main.jpeg') center/cover no-repeat fixed;
+      url("../images/main.jpeg") center/cover no-repeat fixed;
+    background:
+      linear-gradient(to bottom, rgba(4, 78, 83, 0.6), rgba(4, 78, 83, 0.5)),
+      url("../images/main.jpeg") center/cover no-repeat fixed;
   }
   .hero-banner {
     padding: 0;
@@ -389,7 +387,7 @@ About
 }
 @media screen and (min-width: 992px) {
   .about-img::before {
-    content: '';
+    content: "";
     border: 0.5rem solid var(--clr-primary-5);
     position: absolute;
     /* top: 0;
@@ -483,20 +481,14 @@ Featured Tours
 */
 .tour-card {
   background: var(--clr-grey-10);
-<<<<<<< HEAD
-=======
   -webkit-transition: var(--transition);
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
   transition: var(--transition);
   box-shadow: var(--light-shadow);
   margin-bottom: 2rem;
 }
 .tour-card:hover {
   box-sizing: var(--dark-shadow);
-<<<<<<< HEAD
-=======
   -webkit-transform: scale(1.02);
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
   transform: scale(1.02);
 }
 .tour-img-container {
@@ -504,10 +496,7 @@ Featured Tours
 }
 .tour-img {
   height: 15rem;
-<<<<<<< HEAD
-=======
   -o-object-fit: cover;
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
   object-fit: cover;
 }
 .tour-date {
@@ -525,13 +514,9 @@ Featured Tours
 }
 /* extra styles  */
 .tour-info-title {
-<<<<<<< HEAD
-  display: flex;
-=======
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -544,18 +529,12 @@ Featured Tours
   color: var(--clr-grey-8);
 }
 .tour-footer {
-<<<<<<< HEAD
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-=======
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
   flex-wrap: wrap;
   -webkit-box-align: center;
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
   align-items: center;
 }
 .tour-footer p {
@@ -569,30 +548,20 @@ Featured Tours
 }
 @media screen and (min-width: 768px) {
   .featured-center {
-<<<<<<< HEAD
-    display: flex;
-=======
     display: -webkit-box;
     display: flex;
     -webkit-box-pack: justify;
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
     justify-content: space-between;
     flex-wrap: wrap;
   }
   .tour-card {
-<<<<<<< HEAD
-=======
     -webkit-box-flex: 0;
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
     flex: 0 0 calc(50% - 1rem);
   }
 }
 @media screen and (min-width: 1170px) {
   .tour-card {
-<<<<<<< HEAD
-=======
     -webkit-box-flex: 0;
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
     flex: 0 0 calc(33.333% - 1rem);
   }
 }
@@ -611,18 +580,12 @@ Contact
   color: var(--clr-primary-8);
 }
 .contact-form {
-<<<<<<< HEAD
-=======
   display: -webkit-box;
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
   display: flex;
   max-width: 28rem;
 }
 .form-control {
-<<<<<<< HEAD
-=======
   -webkit-box-flex: 1;
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
   flex: 1 1 auto;
   color: var(--clr-grey-5);
 }
@@ -637,8 +600,6 @@ Contact
   text-transform: capitalize;
   border: transparent;
 }
-<<<<<<< HEAD
-=======
 .form-control::-webkit-input-placeholder {
   color: inherit;
 }
@@ -651,7 +612,6 @@ Contact
 .form-control::-ms-input-placeholder {
   color: inherit;
 }
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
 .form-control::placeholder {
   color: inherit;
 }
@@ -661,10 +621,7 @@ Contact
   background: var(--clr-primary-8);
   color: var(--clr-primary-1);
   cursor: pointer;
-<<<<<<< HEAD
-=======
   -webkit-transition: var(--transition);
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
   transition: var(--transition);
 }
 .contact-btn:hover {
@@ -673,24 +630,16 @@ Contact
 }
 @media screen and (min-width: 992px) {
   .contact-center {
-<<<<<<< HEAD
-    display: flex;
-    flex-wrap: wrap;
-=======
     display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
     -webkit-box-pack: justify;
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
     justify-content: space-between;
   }
 
   .contact-form {
     align-self: flex-start;
-<<<<<<< HEAD
-=======
     -webkit-box-flex: 1;
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
     flex: 1 1 auto;
     max-width: 100%;
     margin-left: 1rem;
@@ -703,10 +652,7 @@ Gallery
 ===============
 */
 .gallery {
-<<<<<<< HEAD
-=======
   display: -webkit-box;
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
   display: flex;
   flex-wrap: wrap;
 }
@@ -720,29 +666,19 @@ Gallery
   top: 50%;
   left: 50%;
   font-size: 2rem;
-<<<<<<< HEAD
-=======
   -webkit-transform: translate(-50%, -50%);
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
   transform: translate(-50%, -50%);
   color: var(--clr-white);
   opacity: 0;
   cursor: pointer;
-<<<<<<< HEAD
-=======
   -webkit-transition: var(--transition);
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
   transition: var(--transition);
 }
 .gallery-img {
   height: 17rem;
-<<<<<<< HEAD
-  object-fit: cover;
-=======
   -o-object-fit: cover;
   object-fit: cover;
   -webkit-transition: var(--transition);
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
   transition: var(--transition);
 }
 .gallery-img-container:hover {
@@ -754,20 +690,14 @@ Gallery
 @media screen and (min-width: 768px) {
   .gallery-img-container {
     /* width: 50%; */
-<<<<<<< HEAD
-=======
     -webkit-box-flex: 0;
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
     flex: 0 0 50%;
   }
 }
 @media screen and (min-width: 1170px) {
   .gallery-img-container {
     /* width: 50%; */
-<<<<<<< HEAD
-=======
     -webkit-box-flex: 0;
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
     flex: 0 0 25%;
   }
 }
@@ -784,13 +714,9 @@ Footer
 }
 .footer-links,
 .footer-icons {
-<<<<<<< HEAD
-  display: flex;
-=======
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
   justify-content: center;
   margin-bottom: 1.5rem;
   flex-wrap: wrap;
@@ -801,10 +727,7 @@ Footer
   font-size: 1rem;
   margin-right: 1rem;
   letter-spacing: var(--spacing);
-<<<<<<< HEAD
-=======
   -webkit-transition: var(--transition);
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
   transition: var(--transition);
 }
 .footer-link:hover {
@@ -814,10 +737,7 @@ Footer
   font-size: 2rem;
   margin-right: 1rem;
   color: var(--clr-primary-8);
-<<<<<<< HEAD
-=======
   -webkit-transition: var(--transition);
->>>>>>> 825deea73800a399e9a7fd4833c015677166c984
   transition: var(--transition);
 }
 .footer-icon:hover {
