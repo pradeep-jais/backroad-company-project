@@ -40,7 +40,7 @@ Variables
   --clr-white: #fff;
   --ff-primary: "Lato", sans-serif;
   --transition: all 0.3s linear;
-  --spacing: 0.25rem;
+  --spacing: 0.125rem;
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -185,9 +185,6 @@ Navbar
   box-shadow: var(--dark-shadow);
   z-index: 10;
   background: var(--clr-white);
-}
-.nav-center {
-  /* width: 100%; */
 }
 .nav-header {
   display: -webkit-box;
@@ -542,6 +539,9 @@ Featured Tours
   margin-bottom: 0;
   text-transform: capitalize;
   color: var(--clr-primary-5);
+}
+.tour-footer p > span {
+  margin-right: 0.25rem;
 }
 .tour-btn {
   text-align: center;
